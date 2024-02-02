@@ -6,9 +6,9 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Services() {
     const {scrollY} =useScroll()
-  const opacities=useTransform(scrollY,[600,800,1000,1200],[1,0.6,0.3,0.1])
+  const opacities=useTransform(scrollY,[800,1000,1400,1800],[1,0.9,0.7,0.5])
   return (
-    <motion.div style={{opacity:opacities}} className="flex flex-col justify-center items-center">
+    <motion.div style={{}} className="flex flex-col justify-center items-center ">
       
         <div className="text-center font-bold ">
           <h5 className="text-2 ">Services are</h5>
@@ -16,9 +16,11 @@ export default function Services() {
             <p className="border-t-2 pt-0">SERVICE</p>
           </div>
         </div>
- 
+        <div className="pb-4">
+
       <Card/>
-        <div className=" flex flex-col text-center bg-gray-300 px-[3rem] w-[100%]">
+        </div>
+        <div className=" flex flex-col text-center bg-gray-300 px-[3rem] w-[100%] pb-4" >
             <div className="gap-3">
                 <p className="text-sl text-black font-sans font-bold mb-2 pt-3"> This is web application</p>
                 <button className="border-2 px-[3rem] hover:bg-orange-600 text-white bg-black rounded-md h-10 mb-[1rem]">Submit</button>

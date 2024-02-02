@@ -11,7 +11,7 @@ import logo from './components/home.jpg'
 function App() {
   return (
     <div>
-    <div className={`bg-gray-500 h-full`}>
+    <div className={`bg-gray-500 h-full w-[100%]`}>
       <Navbar/>
       <Home/>
       </div>

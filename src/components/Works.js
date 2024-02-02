@@ -36,30 +36,30 @@ export default function Works() {
     },
   ];
   return (
-    <motion.div style={{opacity:opacities}} className="flex flex-col justify-center md:items-center ">
+    <motion.div style={{}} className="flex flex-col justify-center md:items-center text-center items-center">
       <div className="text-center gap-1">
         <div className="text-center items-center justify-center">
           <h5 className="font-bold text-sm "> web development</h5>
           <div>
-            <p className="font-bold text-[2rem]">WORKS</p>
+            <p className="font-bold text-[2rem] max-[383px]:pb-4">WORKS</p>
           </div>
         </div>
         <motion.div
           initial={{ opacity: 0, scale: 0, rotate: 4 }}
           animate={{ opacity: 1, scale: 1.4, rotate: 0 }}
           transition={{ type: "spring" }}
-          className="max-[755px]:grid-cols-2 flex gap-2 max-[386px]:font-bold py-6 max-[386px]:flex-col justify-center max-[386px]:text-xl max-[386px]:mx-3 translate-x-1"
+          className="max-[755px]:grid-cols-2 flex gap-2 max-[386px]:font-bold max-md:py-10 py-6 mb-8 max-md:flex-col justify-center max-[386px]:text-sm max-[386px]:mx-3 translate-x-1"
         >
-          <button className="border-2 px-3 py-1 max-[386px]:hover:bg-orange-400 max-[386px]:rounded-md  max-md:hover:text-white border-black max-[386px]:w-[100%] ">
+          <button className="border-2 px-3 py-1 max-[386px]:hover:bg-orange-400 max-[386px]:rounded-md  max-md:hover:text-white border-black ">
             demo
           </button>
-          <button className="border-2 px-3 py-1 max-[386px]:hover:bg-orange-400 max-[386px]:rounded-md  max-md:hover:text-white border-black max-[386px]:w-[100%] ">
+          <button className="border-2 px-3 py-1 max-[386px]:hover:bg-orange-400 max-[386px]:rounded-md  max-md:hover:text-white border-black ">
             demo
           </button>
-          <button className="border-2 px-3 py-1 max-[386px]:hover:bg-orange-400 max-[386px]:rounded-md  max-md:hover:text-white border-black max-[386px]:w-[100%] ">
+          <button className="border-2 px-3 py-1 max-[386px]:hover:bg-orange-400 max-[386px]:rounded-md  max-md:hover:text-white border-black ">
             demo
           </button>
-          <button className="border-2 px-3 py-1 max-[386px]:hover:bg-orange-400 max-[386px]:rounded-md  max-md:hover:text-white border-black max-[386px]:w-[100%] ">
+          <button className="border-2 px-3 py-1 max-[386px]:hover:bg-orange-400 max-[386px]:rounded-md  max-md:hover:text-white border-black  ">
             demo
           </button>
           <button className="border-2 px-3 py-1 max-[386px]:hover:bg-orange-400 max-[386px]:rounded-md  max-md:hover:text-white border-black max-[386px]:w-[100%] ">
