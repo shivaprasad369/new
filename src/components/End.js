@@ -6,7 +6,7 @@ export default function End() {
   
   
         <div className=' py-3'>
-            <img src={logo} alt='image' width={60} className='rounded-full' />
+            <img src={logo} alt='profile' width={60} className='rounded-full' />
         </div>
         <div className='text-xl text-center pb-3'>
             <p className='font-bold'>To address all issues (including breaking changes), run:</p>

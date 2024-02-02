@@ -7,7 +7,7 @@ import Poster from './components/Poster';
 import Services from './components/Services';
 import Works from './components/Works';
 
-import logo from './components/home.jpg'
+// import logo from './components/home.jpg'
 function App() {
   return (
     <div>

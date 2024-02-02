@@ -1,11 +1,11 @@
 import React from "react";
 import logo from "./home.jpg";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import Images from "./Images";
 
 export default function Works() {
-  const {scrollY} =useScroll()
-  const opacities=useTransform(scrollY,[1500,1520,1800,2000],[1,0.6,0.3,0.1])
+  // const {scrollY} =useScroll()
+  // const opacities=useTransform(scrollY,[1500,1520,1800,2000],[1,0.6,0.3,0.1])
   const data = [
     {
       image: logo,

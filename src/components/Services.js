@@ -1,12 +1,12 @@
 import React from "react";
 
 import Card from "./Card";
-import Cards from "./Cards";
-import { motion, useScroll, useTransform } from "framer-motion";
+//import Cards from "./Cards";
+import { motion } from "framer-motion";
 
 export default function Services() {
-    const {scrollY} =useScroll()
-  const opacities=useTransform(scrollY,[800,1000,1400,1800],[1,0.9,0.7,0.5])
+//     const {scrollY} =useScroll()
+//   const opacities=useTransform(scrollY,[800,1000,1400,1800],[1,0.9,0.7,0.5])
   return (
     <motion.div style={{}} className="flex flex-col justify-center items-center ">
       

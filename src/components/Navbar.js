@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./home.jpg";
-import { LuMenuSquare } from "react-icons/lu";
+// import logo from "./home.jpg";
+// import { LuMenuSquare } from "react-icons/lu";
 export default function Navbar() {
   return (
     <div className="flex gap-2 bg-black text-white">
